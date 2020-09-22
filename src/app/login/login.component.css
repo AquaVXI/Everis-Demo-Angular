@@ -1,0 +1,64 @@
+a:link {
+  text-decoration: none;
+}
+
+.main {
+  background-color: #1B0088;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main > h1 {
+  height: 1.1em;
+  margin-top: 10%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main > h1 p {
+  margin-top: auto;
+}
+
+.main > .image-login {
+  display: block;
+  position: relative;
+  width: 96px;
+  margin: 2.25em auto;
+}
+
+.main > .button-login {
+  height: 1.8em;
+  width: 8em;
+  background-color: white;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main > .button-login .text {
+  font-family: Arial Black, sans-serif;
+  font-weight: 110%;
+  font-size: 1em;
+  color: #1B0088;
+}
+/*# sourceMappingURL=login.component.css.map */

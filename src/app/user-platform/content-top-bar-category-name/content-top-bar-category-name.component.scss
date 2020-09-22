@@ -1,0 +1,29 @@
+$height-top-bar: 10%;
+$height-content: 100% - $height-top-bar;
+
+
+.category-name{
+    
+    height: $height-top-bar;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+    border: 3px solid #ED1650;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 100%;
+    border-left: 0;
+
+    img{
+        height: 1.5em;
+        margin-left: 1.5em;
+        margin-right: .5em;
+    }
+    
+    p{
+        font-family: Arial;
+        display: inline-flex;
+        align-items: center;
+    }
+}

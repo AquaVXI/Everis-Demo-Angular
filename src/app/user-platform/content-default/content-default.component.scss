@@ -1,0 +1,35 @@
+p{
+    position: absolute;
+    margin-top: 22.5%;
+    margin-left: 10%;
+    font-family: Arial Black, Helvetica, sans-serif;
+
+    .title{
+        display: block;
+        color: #1B0088;
+
+        &::after{
+            content: '';
+            display: block;
+            height: .5em;
+            width: 30.5%;
+            background-color: #ED1650;
+            border-radius: 25px;
+        }
+    }
+
+    .text{
+        display: block;
+        margin-top: .5em;
+        color: #ED1650;
+
+        &::after{
+            content: '';
+            display: block;
+            height: .5em;
+            width: 100.5%;
+            background-color: #1B0088;
+            border-radius: 25px;
+        }
+    }
+}

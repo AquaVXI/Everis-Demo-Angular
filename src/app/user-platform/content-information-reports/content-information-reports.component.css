@@ -1,0 +1,106 @@
+.flex-container {
+  width: 100%;
+  height: 89%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #fff;
+}
+
+.flex-container > .categories,
+.flex-container > .content {
+  margin: 1em;
+  -webkit-box-shadow: 0px 2px 6px #00000059;
+          box-shadow: 0px 2px 6px #00000059;
+  opacity: 1;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.categories {
+  width: 20%;
+  margin-right: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 10;
+      -ms-flex-positive: 10;
+          flex-grow: 10;
+}
+
+.categories h3, .categories div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.categories h3 {
+  margin-left: 1em;
+  margin-bottom: .5em;
+  font-family: Arial Black, Helvetica, sans-serif;
+  color: #1B0088;
+  -ms-flex-preferred-size: 5%;
+      flex-basis: 5%;
+}
+
+.categories div {
+  margin: .25em 1em .5em 1em;
+  border: 1px solid #BFBFBF;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (50%)[2];
+      grid-template-columns: repeat(2, 50%);
+  border: none;
+}
+
+.categories div div {
+  margin: 2px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.categories div div img, .categories div div p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.categories div div img {
+  height: 50%;
+  margin: auto;
+}
+
+.categories div div p {
+  margin-top: .25em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8em;
+  color: #0000009f;
+}
+
+.content {
+  width: 50%;
+  -webkit-box-flex: 20;
+      -ms-flex-positive: 20;
+          flex-grow: 20;
+}
+/*# sourceMappingURL=content-information-reports.component.css.map */

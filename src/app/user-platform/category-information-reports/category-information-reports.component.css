@@ -1,0 +1,41 @@
+li {
+  width: 100%;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  list-style: none;
+}
+
+li::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 78%;
+  margin-left: 22%;
+  margin-top: -5%;
+  background: cornflowerblue;
+}
+
+li a {
+  padding-left: 10%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+li a img {
+  margin-right: 5px;
+  height: 1.6em;
+  -webkit-filter: invert(100%) sepia(1%) saturate(3%) hue-rotate(350deg) brightness(103%) contrast(101%);
+          filter: invert(100%) sepia(1%) saturate(3%) hue-rotate(350deg) brightness(103%) contrast(101%);
+}
+
+li a p {
+  font-family: Arial Black;
+  font-size: .9em;
+  color: white;
+}
+/*# sourceMappingURL=category-information-reports.component.css.map */

@@ -1,0 +1,44 @@
+$default-html-height: 100vh;
+$default-width-panel-left: 20%;
+$menu-sub-category-margin: 10%;
+$svg-default-color: invert(100%) sepia(1%) saturate(3%) hue-rotate(350deg) brightness(103%) contrast(101%);
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.main{
+    display: flex;
+}
+
+.panel_left{
+    width: $default-width-panel-left;
+    height: $default-html-height;
+}
+
+
+.panel_right{
+    $height-top-bar: 7%;
+    $height-content: 100% - $height-top-bar;
+
+    height: $default-html-height;
+    width: (100% - $default-width-panel-left);
+    background-color: #EDEDED;
+    display: inline-flex;
+    flex-direction: column;
+
+    app-top-bar{
+        height: $height-top-bar;
+        width: 100%;
+        display: flex;
+    }
+
+    .app-content{
+        height: $height-content;
+    }
+
+}

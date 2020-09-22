@@ -1,0 +1,32 @@
+.category-name {
+  height: 10%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 3px solid #ED1650;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 100%;
+  border-left: 0;
+}
+
+.category-name img {
+  height: 1.5em;
+  margin-left: 1.5em;
+  margin-right: .5em;
+}
+
+.category-name p {
+  font-family: Arial;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=content-top-bar-category-name.component.css.map */

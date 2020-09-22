@@ -1,0 +1,38 @@
+$menu-sub-category-margin: 10%;
+// Sub-category Item
+li{
+    width: 100%;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    list-style: none;
+
+    &::after{
+        content: '';
+        display: block;
+        height: 2px;
+        width: 100% - $menu-sub-category-margin -12;
+        margin-left: $menu-sub-category-margin + 12;
+        margin-top: -5%;
+        background: cornflowerblue;
+    }
+
+    a{
+        padding-left: 10%;
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+
+        img{
+            margin-right: 5px;
+            height: 1.6em;
+            filter: invert(100%) sepia(1%) saturate(3%) hue-rotate(350deg) brightness(103%) contrast(101%);
+        }
+
+        p{
+            font-family: Arial Black;
+            font-size: .9em;
+            color: white;
+        }
+
+    }
+}
